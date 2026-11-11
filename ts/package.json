@@ -1,0 +1,13 @@
+{
+  "name": "livekit-room-client-diagnostics",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/diagnostics.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.2"
+  }
+}

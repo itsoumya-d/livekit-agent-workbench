@@ -1,0 +1,9 @@
+[project]
+name = "livekit-agent-workbench"
+version = "0.1.0"
+description = "LiveKit JWT token auditor, voice agent barge-in latency profiler, and WebRTC/SIP diagnostics workbench"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
